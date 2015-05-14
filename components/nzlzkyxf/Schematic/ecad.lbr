@@ -1,0 +1,48 @@
+<eagle version="6.5.0" xmlns="eagle">
+  <drawing>
+    <library>
+      <packages>
+        <package name="KEYSTONE_967" xmlns="eagle">
+          <pad name="1" x="-6.35" y="0" drill="2.18" />
+          <pad name="2" x="6.35" y="0" drill="2.18" />
+          <wire x1="-13.2" y1="7.295" x2="-13.2" y2="-7.295" width="0.127" layer="21" />
+          <wire x1="-13.2" y1="-7.295" x2="13.2" y2="-7.295" width="0.127" layer="21" />
+          <wire x1="13.2" y1="-7.295" x2="13.2" y2="7.295" width="0.127" layer="21" />
+          <wire x1="13.2" y1="7.295" x2="-13.2" y2="7.295" width="0.127" layer="21" />
+          <text x="-13" y="7.7" size="1" layer="25" font="vector" ratio="12">&gt;NAME</text>
+          <circle x="-15" y="0" radius="0.0635" width="0.16" layer="21" />
+        </package>
+      </packages>
+      <symbols>
+        <symbol name="KEYSTONE_967">
+          <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94" />
+          <wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94" />
+          <wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" />
+          <pin name="V+" x="-7.62" y="0" visible="pin" length="short" direction="pas" />
+          <pin name="V-" x="7.62" y="0" visible="pin" length="short" direction="pas" rot="R180" />
+          <text x="-5.08" y="4.826" size="1" layer="95" font="vector" ratio="12">&gt;NAME</text>
+          <text x="-5.08" y="3.302" size="1" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+        </symbol>
+      </symbols>
+      <devicesets>
+        <deviceset name="KEYSTONE_967" prefix="J">
+          <gates>
+            <gate name="G$1" symbol="KEYSTONE_967" x="0" y="0" />
+          </gates>
+          <devices>
+            <device name="" package="KEYSTONE_967" xmlns="eagle">
+              <connects>
+                <connect gate="G$1" pin="V+" pad="1" />
+                <connect gate="G$1" pin="V-" pad="2" />
+              </connects>
+              <technologies>
+                <technology name="" />
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+      </devicesets>
+    </library>
+  </drawing>
+</eagle>

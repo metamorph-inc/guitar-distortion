@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="89cf5a21-2083-4323-9271-4c8b48efc515" Name="T491C107K016AT" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-ba1c3122-2012-4a3c-8d35-782e9ca79832" Author="" Notes="" XPosition="546" YPosition="273" Name="EDAModel" ID="id-7af6a0b5-954e-4fb4-9c47-649582630de0" Package="T491C" Device="" Library="magic_man" DeviceSet="T491C107K016AT" xmlns="">
+    <Pin ID="id-a675c22a-0086-45c2-aa0e-1bf8deafea0b" PortMap="id-6f54ad32-554d-49c4-b6ef-6bab75f4cfc7" Notes="" XPosition="25" Definition="" YPosition="25" Name="1" EDAGate="G$1" EDASymbolLocationX="-7.62" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-53cbf18d-aee8-47d5-83aa-b0172dfc0fb3" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="2" EDAGate="G$1" EDASymbolLocationX="7.62" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3fb6ac81-c2f8-4b20-ad70-0e86bdad7e6d" XPosition="1000" YPosition="160" xmlns="">
+    <Value ID="id-3fb6ac81-c2f8-4b20-ad70-0e86bdad7e6d" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>T491C107K016AT</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="pin_count" OnDataSheet="false" ID="property.id-8eebcf49-0c76-432f-89df-fce2959f36d5" XPosition="1000" YPosition="520" xmlns="">
+    <Value ID="id-8eebcf49-0c76-432f-89df-fce2959f36d5" DimensionType="Scalar" Dimensions="" DataType="Integer">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>2</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q4="avm" xsi:type="q4:PrimitiveProperty" Name="size_length" OnDataSheet="false" ID="property.id-40fa4653-7d7d-4e5c-a093-5cd02d4a65f0" XPosition="1000" YPosition="80" xmlns="">
+    <Value ID="id-40fa4653-7d7d-4e5c-a093-5cd02d4a65f0" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q4:FixedValue">
+        <Value>0.006</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q5="avm" xsi:type="q5:PrimitiveProperty" Name="capacitance_tolerance" OnDataSheet="false" ID="property.id-d4b95a57-38cf-49e8-a486-7634906dbf31" XPosition="1000" YPosition="560" xmlns="">
+    <Value ID="id-d4b95a57-38cf-49e8-a486-7634906dbf31" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q5:FixedValue">
+        <Value>±10%</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q6="avm" xsi:type="q6:PrimitiveProperty" Name="packaging" OnDataSheet="false" ID="property.id-b911b0c6-3e45-4298-9c02-9d002864fb29" XPosition="1000" YPosition="400" xmlns="">
+    <Value ID="id-b911b0c6-3e45-4298-9c02-9d002864fb29" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q6:FixedValue">
+        <Value>Cut Tape (CT)</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q7="avm" xsi:type="q7:PrimitiveProperty" Name="lead_free_status" OnDataSheet="false" ID="property.id-6a3d29e8-af03-4ab7-8b9e-665f0f1c6a86" XPosition="1000" YPosition="320" xmlns="">
+    <Value ID="id-6a3d29e8-af03-4ab7-8b9e-665f0f1c6a86" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q7:FixedValue">
+        <Value>Lead Free</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q8="avm" xsi:type="q8:PrimitiveProperty" Name="mounting_style" OnDataSheet="false" ID="property.id-6831856c-72cb-4c5f-985e-85615b71b01f" XPosition="1000" YPosition="360" xmlns="">
+    <Value ID="id-6831856c-72cb-4c5f-985e-85615b71b01f" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q8:FixedValue">
+        <Value>Surface Mount</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q9="avm" xsi:type="q9:PrimitiveProperty" Name="equivalent_series_resistance_esr" OnDataSheet="false" ID="property.id-ed4578a3-72e6-442c-b7e5-ee207917cd1e" XPosition="1000" YPosition="200" xmlns="">
+    <Value ID="id-ed4578a3-72e6-442c-b7e5-ee207917cd1e" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q9:FixedValue">
+        <Value>1.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q10="avm" xsi:type="q10:PrimitiveProperty" Name="case_package" OnDataSheet="false" ID="property.id-24c2c946-a3f9-42bb-867c-2b808a06bee1" XPosition="1000" YPosition="600" xmlns="">
+    <Value ID="id-24c2c946-a3f9-42bb-867c-2b808a06bee1" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q10:FixedValue">
+        <Value>6032-28</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q11="avm" xsi:type="q11:PrimitiveProperty" Name="reach_svhc_compliance" OnDataSheet="false" ID="property.id-e674031b-7d00-46de-b59d-688bb4e6b61b" XPosition="1000" YPosition="480" xmlns="">
+    <Value ID="id-e674031b-7d00-46de-b59d-688bb4e6b61b" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q11:FixedValue">
+        <Value>No SVHC</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q12="avm" xsi:type="q12:PrimitiveProperty" Name="capacitance" OnDataSheet="false" ID="property.id-4307a4f6-958d-42fa-80d7-00bf3b638cd4" XPosition="1000" YPosition="280" xmlns="">
+    <Value ID="id-4307a4f6-958d-42fa-80d7-00bf3b638cd4" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q12:FixedValue">
+        <Value>0.0001</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q13="avm" xsi:type="q13:PrimitiveProperty" Name="rohs_status" OnDataSheet="false" ID="property.id-d1eea98c-893e-408a-aac8-3e72e11e1cea" XPosition="1000" YPosition="240" xmlns="">
+    <Value ID="id-d1eea98c-893e-408a-aac8-3e72e11e1cea" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q13:FixedValue">
+        <Value>Compliant</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q14="avm" xsi:type="q14:PrimitiveProperty" Name="size_height" OnDataSheet="false" ID="property.id-6f1f544c-3f73-49d0-bb40-dbef3ee7dfc2" XPosition="1000" YPosition="440" xmlns="">
+    <Value ID="id-6f1f544c-3f73-49d0-bb40-dbef3ee7dfc2" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q14:FixedValue">
+        <Value>0.0025</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q15="avm" xsi:type="q15:PrimitiveProperty" Name="size_width" OnDataSheet="false" ID="property.id-ce359d46-2b14-45ff-a337-357d9cd3970d" XPosition="1000" YPosition="40" xmlns="">
+    <Value ID="id-ce359d46-2b14-45ff-a337-357d9cd3970d" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q15:FixedValue">
+        <Value>0.0032</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q16="avm" xsi:type="q16:PrimitiveProperty" Name="voltage_rating_dc" OnDataSheet="false" ID="property.id-a4ecd275-138c-4700-a65f-bb937f3067c0" XPosition="1000" YPosition="120" xmlns="">
+    <Value ID="id-a4ecd275-138c-4700-a65f-bb937f3067c0" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q16:FixedValue">
+        <Value>16.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-ba1c3122-2012-4a3c-8d35-782e9ca79832" Notes="Standalone EAGLE library for this device" XPosition="588" YPosition="203" xmlns="" />
+  <ResourceDependency Name="Kemet-T491C107K016AT-datasheet.pdf" Path="doc\Kemet-T491C107K016AT-datasheet.pdf" Hash="" ID="id-a323f08c-01a6-4996-a432-ce389f8b892d" Notes="" XPosition="273" YPosition="56" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-b3333fed-fb1a-4587-9449-17a4c47b8b6f" ApplyJoinData="" XPosition="378" YPosition="280" Notes="" Definition="AnalogSignal" Name="1(+)" xmlns="">
+    <Role xmlns:q17="schematic" xsi:type="q17:Pin" ID="id-6f54ad32-554d-49c4-b6ef-6bab75f4cfc7" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5c6565a2-064e-4e9f-95a6-61b4524e5a06" ApplyJoinData="" XPosition="721" YPosition="266" Notes="" Definition="AnalogSignal" Name="2" xmlns="">
+    <Role xmlns:q18="schematic" xsi:type="q18:Pin" ID="id-db589821-81e4-4293-b572-e946e13793f6" PortMap="id-53cbf18d-aee8-47d5-83aa-b0172dfc0fb3" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">passive_components.capacitors.uncategorized</Classifications>
+</Component>

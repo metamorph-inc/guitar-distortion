@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="ebc6d1ef-51c2-477f-90b6-13e3845c3e88" Name="RN112APC" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-b181b2f4-510d-466c-8854-e069921ae860" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" ID="id-6fe44ee6-6d38-449e-a4ac-7af218a1a94e" Package="SWITCHCRAFT_RN" Device="" Library="General_Will" DeviceSet="RN112APC" xmlns="">
+    <Pin ID="id-e1e82381-8305-4913-a8ec-88a39743f4f3" PortMap="" Notes="" XPosition="325" Definition="" YPosition="25" Name="TIP" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-0cb73f55-904d-444a-ab26-507fcd9dfe95" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="SLEEVE" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-82a101f4-f51f-4002-b1fa-86de5a7c928a" PortMap="" Notes="" XPosition="425" Definition="" YPosition="25" Name="TIP-SHUNT" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-2.54" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-039a349b-f7cb-47c6-b965-a3bf84f0864e" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="RING" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-af1a7c7c-05b7-4d4b-ae2c-06b40d0d8ef4" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="RING-SHUNT" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-7.62" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="number_of_contacts" OnDataSheet="false" ID="property.id-e2ed8699-1093-4ad5-aee9-675b3fdeb072" XPosition="1000" YPosition="40" xmlns="">
+    <Value ID="id-e2ed8699-1093-4ad5-aee9-675b3fdeb072" DimensionType="Scalar" Dimensions="" DataType="Integer">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>2</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="mounting_angle" OnDataSheet="false" ID="property.id-4adf77ed-7eca-49f3-8d09-607703e9ce35" XPosition="1000" YPosition="80" xmlns="">
+    <Value ID="id-4adf77ed-7eca-49f3-8d09-607703e9ce35" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>90.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q4="avm" xsi:type="q4:PrimitiveProperty" Name="gender" OnDataSheet="false" ID="property.id-78b2b3cc-6c2e-49cf-b0d4-b447bd381184" XPosition="1000" YPosition="120" xmlns="">
+    <Value ID="id-78b2b3cc-6c2e-49cf-b0d4-b447bd381184" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q4:FixedValue">
+        <Value>Male</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q5="avm" xsi:type="q5:PrimitiveProperty" Name="number_of_positions" OnDataSheet="false" ID="property.id-6320e054-3306-4271-936d-469a9bc1bfc4" XPosition="1000" YPosition="240" xmlns="">
+    <Value ID="id-6320e054-3306-4271-936d-469a9bc1bfc4" DimensionType="Scalar" Dimensions="" DataType="Integer">
+      <ValueExpression xsi:type="q5:FixedValue">
+        <Value>2</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q6="avm" xsi:type="q6:PrimitiveProperty" Name="packaging" OnDataSheet="false" ID="property.id-2aade9ba-fb79-47d1-9ec9-ab6271423091" XPosition="1000" YPosition="280" xmlns="">
+    <Value ID="id-2aade9ba-fb79-47d1-9ec9-ab6271423091" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q6:FixedValue">
+        <Value>Bulk</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q7="avm" xsi:type="q7:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-dd6ae0af-cd8e-460d-9404-3c74ebfb7f36" XPosition="1000" YPosition="200" xmlns="">
+    <Value ID="id-dd6ae0af-cd8e-460d-9404-3c74ebfb7f36" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q7:FixedValue">
+        <Value>RN112APC</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q8="avm" xsi:type="q8:PrimitiveProperty" Name="color" OnDataSheet="false" ID="property.id-9b6a90fa-9573-4ac6-9f07-f1498f2e1dba" XPosition="1000" YPosition="160" xmlns="">
+    <Value ID="id-9b6a90fa-9573-4ac6-9f07-f1498f2e1dba" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q8:FixedValue">
+        <Value>Black</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q9="avm" xsi:type="q9:PrimitiveProperty" Name="size_diameter" OnDataSheet="false" ID="property.id-88c50a3b-961a-484a-905f-f8031c15472f" XPosition="1000" YPosition="360" xmlns="">
+    <Value ID="id-88c50a3b-961a-484a-905f-f8031c15472f" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q9:FixedValue">
+        <Value>0.00635</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q10="avm" xsi:type="q10:PrimitiveProperty" Name="contact_plating" OnDataSheet="false" ID="property.id-b7bb9ff8-ecc8-444e-993a-3e9818736b4e" XPosition="1000" YPosition="440" xmlns="">
+    <Value ID="id-b7bb9ff8-ecc8-444e-993a-3e9818736b4e" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q10:FixedValue">
+        <Value>Gold</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q11="avm" xsi:type="q11:PrimitiveProperty" Name="lead_free_status" OnDataSheet="false" ID="property.id-8868b570-70b1-4d33-91c1-20110f950069" XPosition="1000" YPosition="480" xmlns="">
+    <Value ID="id-8868b570-70b1-4d33-91c1-20110f950069" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q11:FixedValue">
+        <Value>Lead Free</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q12="avm" xsi:type="q12:PrimitiveProperty" Name="mounting_style" OnDataSheet="false" ID="property.id-959318bf-8ccc-4cd8-bb42-36bcf9744cd8" XPosition="1000" YPosition="400" xmlns="">
+    <Value ID="id-959318bf-8ccc-4cd8-bb42-36bcf9744cd8" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q12:FixedValue">
+        <Value>Through Hole</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q13="avm" xsi:type="q13:PrimitiveProperty" Name="rohs_status" OnDataSheet="false" ID="property.id-3b0917a5-4843-461a-8e39-0bbfd8c880fc" XPosition="1000" YPosition="320" xmlns="">
+    <Value ID="id-3b0917a5-4843-461a-8e39-0bbfd8c880fc" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q13:FixedValue">
+        <Value>Compliant</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-d1dbfa9b-349e-4f13-806d-76ac9365b0fe" Notes="Custom icon for this component" XPosition="900" YPosition="40" xmlns="" />
+  <ResourceDependency Name="Datasheet.pdf" Path="doc\Datasheet.pdf" Hash="" ID="id-ce043214-f457-4c3d-ab9f-e79aa9bbfceb" Notes="" XPosition="900" YPosition="140" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-b181b2f4-510d-466c-8854-e069921ae860" Notes="Standalone EAGLE library for this device" XPosition="469" YPosition="126" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-7ccfb4c6-cea6-463a-89fe-86cd0edac4f2" ApplyJoinData="" XPosition="77" YPosition="140" Notes="" Definition="AnalogSignal" Name="RING" xmlns="">
+    <Role xmlns:q14="schematic" xsi:type="q14:Pin" ID="id-a183ab3e-9e67-4a6e-bd5b-f482cd130ae8" PortMap="id-039a349b-f7cb-47c6-b965-a3bf84f0864e" Notes="" XPosition="100" Definition="" YPosition="100" Name="RING" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-f6ab7efd-2a28-43e7-b4a8-39e1c293159f" ApplyJoinData="" XPosition="623" YPosition="112" Notes="" Definition="AnalogSignal" Name="TIP" xmlns="">
+    <Role xmlns:q15="schematic" xsi:type="q15:Pin" ID="id-47c244a1-112d-4fab-b4fa-fdbcbdc463bf" PortMap="id-e1e82381-8305-4913-a8ec-88a39743f4f3" Notes="" XPosition="100" Definition="" YPosition="100" Name="TIP" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-af031c21-02db-4512-9aa9-bbd28b72969a" ApplyJoinData="" XPosition="616" YPosition="224" Notes="" Definition="AnalogSignal" Name="TIP-SHUNT" xmlns="">
+    <Role xmlns:q16="schematic" xsi:type="q16:Pin" ID="id-1be2a3be-afcb-482f-ac6c-807fce76f06a" PortMap="id-82a101f4-f51f-4002-b1fa-86de5a7c928a" Notes="" XPosition="100" Definition="" YPosition="100" Name="TIP-SHUNT" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-2.54" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-fb660844-7117-40d1-9dab-849c74dcd635" ApplyJoinData="" XPosition="616" YPosition="329" Notes="" Definition="AnalogSignal" Name="SLEEVE" xmlns="">
+    <Role xmlns:q17="schematic" xsi:type="q17:Pin" ID="id-9eeeebf7-8713-4201-be47-ce3eef4715e6" PortMap="id-0cb73f55-904d-444a-ab26-507fcd9dfe95" Notes="" XPosition="100" Definition="" YPosition="100" Name="SLEEVE" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-d0d1208b-c7d1-4cba-9a99-2d7861a82ea0" ApplyJoinData="" XPosition="63" YPosition="252" Notes="" Definition="AnalogSignal" Name="RING-SHUNT" xmlns="">
+    <Role xmlns:q18="schematic" xsi:type="q18:Pin" ID="id-6a6ecb69-3b5c-4f72-9b93-424152e129df" PortMap="id-af1a7c7c-05b7-4d4b-ae2c-06b40d0d8ef4" Notes="" XPosition="100" Definition="" YPosition="100" Name="RING-SHUNT" EDAGate="G$1" EDASymbolLocationX="5.08" EDASymbolLocationY="-7.62" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">connectors_and_adapters</Classifications>
+</Component>

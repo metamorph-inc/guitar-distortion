@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="2ea07fa6-1aa5-4773-b0d2-683b4bac91b6" Name="MMBT5088" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-1ed9bfb9-494a-4d31-af1e-dc5ddaa0eb2f" Author="" Notes="" XPosition="595" YPosition="266" Name="EDAModel" ID="id-7463136c-60ec-4ac6-aaf3-2a6531b4d740" Package="SOT-23" Device="" Library="magic_man" DeviceSet="MMBT5088" xmlns="">
+    <Pin ID="id-6f5cc14b-bff5-45c4-b0e4-6a2bbcb3a7d1" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="E" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-446b358d-71fd-401f-9de5-847b3d48f07c" PortMap="id-09f5811e-89b6-4c0f-9d1d-bdbb970685f3" Notes="" XPosition="25" Definition="" YPosition="25" Name="B" EDAGate="G$1" EDASymbolLocationX="-10.16" EDASymbolLocationY="2.54" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-553f481c-8353-4911-9f69-26470f2c73c5" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="C" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="7.62" EDASymbolRotation="0" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-40967ed3-957d-4f16-ac6b-5112a9b38334" XPosition="987" YPosition="84" xmlns="">
+    <Value ID="id-40967ed3-957d-4f16-ac6b-5112a9b38334" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>MMBT5088</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-1ed9bfb9-494a-4d31-af1e-dc5ddaa0eb2f" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <ResourceDependency Name="Fairchild_Semiconductor-MMBT5088-datasheet.pdf" Path="doc\Fairchild_Semiconductor-MMBT5088-datasheet.pdf" Hash="" ID="id-70e941ca-40bc-4a43-ac7b-53fd49b9870e" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-55a06402-5554-4ef5-ab26-8c03e20f37e5" ApplyJoinData="" XPosition="847" YPosition="287" Notes="" Definition="AnalogSignal" Name="EMITTER" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-7db8baca-fd4b-4d5c-8726-c3bf8365e95d" PortMap="id-6f5cc14b-bff5-45c4-b0e4-6a2bbcb3a7d1" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-be9398c4-b9b2-439e-b4cc-6ebcab77d2d5" ApplyJoinData="" XPosition="847" YPosition="182" Notes="" Definition="AnalogSignal" Name="COLLECTOR" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-4d3e6191-bd7a-4e4d-9697-0778a277914d" PortMap="id-553f481c-8353-4911-9f69-26470f2c73c5" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-b3965aa3-1c67-4da3-999f-9d470ad7588f" ApplyJoinData="" XPosition="294" YPosition="252" Notes="" Definition="AnalogSignal" Name="BASE" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-09f5811e-89b6-4c0f-9d1d-bdbb970685f3" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

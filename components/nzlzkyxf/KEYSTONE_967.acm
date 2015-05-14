@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="09d556df-1b1c-427c-88fe-57681ca6d80e" Name="KEYSTONE_967" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-6527dadf-7e30-4aa8-9953-fb3bab369a84" Author="" Notes="" XPosition="595" YPosition="273" Name="EDAModel" ID="id-31d243cf-5595-4d87-b985-ed20d63d216e" Package="KEYSTONE_967" Device="" Library="magic_man" DeviceSet="KEYSTONE_967" xmlns="">
+    <Pin ID="id-0301cc19-39c1-44d0-ac74-e1845b8670c7" PortMap="id-29b85d5f-a6c8-4241-bb2b-5e01f54f3132" Notes="" XPosition="25" Definition="" YPosition="25" Name="V-" EDAGate="G$1" EDASymbolLocationX="7.62" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-0e34c038-065f-4314-bdd9-d97c767ab476" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="V+" EDAGate="G$1" EDASymbolLocationX="-7.62" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-82eefe65-3148-4adb-95bf-216c0d6221d2" XPosition="1050" YPosition="91" xmlns="">
+    <Value ID="id-82eefe65-3148-4adb-95bf-216c0d6221d2" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>KEYSTONE_967</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="967-291824.pdf" Path="doc\967-291824.pdf" Hash="" ID="id-87ea79e8-67f9-44d6-8b03-89df9085619e" Notes="" XPosition="329" YPosition="168" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-6527dadf-7e30-4aa8-9953-fb3bab369a84" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-ab1268cf-d716-4bff-9134-a23c8439e78a" ApplyJoinData="" XPosition="763" YPosition="273" Notes="" Definition="AnalogSignal" Name="V+" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-85450661-e575-451b-aaa7-d4706083a053" PortMap="id-0e34c038-065f-4314-bdd9-d97c767ab476" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-bbf40d86-9434-4736-8604-70a7f9800fcd" ApplyJoinData="" XPosition="434" YPosition="273" Notes="" Definition="AnalogSignal" Name="V-" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-29b85d5f-a6c8-4241-bb2b-5e01f54f3132" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="P" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>
